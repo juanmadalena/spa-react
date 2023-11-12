@@ -13,7 +13,7 @@ function App() {
     { name:"Home", path: "/spa-react/", element: <Home /> },
     { name:"Products", path: "/spa-react/products", element: <Products /> },
     { name:"Contact", path: "/spa-react/contact", element: <Contact /> },
-    { name:null, path: "*", element: <PageNotFound /> },
+    { name:null, path: "/spa-react/*", element: <PageNotFound /> },
   ]
 
   return (
