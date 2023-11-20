@@ -12,8 +12,8 @@ export const Products = () => {
 
             <section className="w-full">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium animi porro excepturi quam est iure enim, veniam repudiandae doloribus nemo eius necessitatibus ex architecto eligendi dignissimos nobis et minima tenetur?</p>
-                <p>This is a link to the <a href="./">Home</a> page.</p>
-                <p>This is a link to the <a href="./contact">Contact</a> page.</p>
+                <p>This is a link to the <Link to="/spa-react/">Home</Link> page.</p>
+                <p>This is a link to the <Link to="/spa-react/contact">Contact</Link> page.</p>
             </section>
         </>
     );
