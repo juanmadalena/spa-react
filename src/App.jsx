@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <Routes>
+      <Routes basename = {process.env.PUBLIC_URL}>
         {
           ROUTES.map( ({name, path, element}) => (
             <Route path={path} element={element} key={name}/>
